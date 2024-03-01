@@ -11,32 +11,11 @@ After Oversampling, a significant transformation ensued. All four models—Decis
 Evolution of Model Performance:
 Here's a snapshot of the model's progression through key stages:
 
-Model 
-Before Oversampling
-After Oversampling (Random Forest)
-After SMOTTENN
-After Hyperparameter Tuning
-Accuracy Score
-0.8234
-0.8791
-0.8845
-0.9122
-Precision (Churn - 1)
-0.09
-0.93
-0.91
-0.91
-Recall 
-(Churn - 1)
-0.56
-0.89
-0.91
-0.95
-F1-Score (Churn - 1)
-0.16
-0.91
-0.91
-0.93
+Model       Before Oversamplin     After Oversampling (Random Forest)  After SMOTTENN  After Hyperparameter Tuning
+Accuracy Score  0.8234                   0.8791                              0.8845               0.9122
+Precision        0.09                     0.93                                0.91                  0.91
+Recall           0.56                     0.89                                0.91                  0.95
+F1-Score         0.16                     0.91                                0.91                  0.93
 
 
 These metrics encapsulate the evolution of the model's performance, showcasing the substantial improvements achieved through strategic oversampling, balancing, and hyperparameter tuning. The remarkable balance between precision and recall in the final model underscores its prowess in deciphering complex patterns within telecom churn dynamics.
